@@ -1,0 +1,46 @@
+/*=== GLOBAL ===*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.hero.hide {
+  display: none;
+}
+
+html {
+    background-color: #0984e3;
+}
+
+/*=== TITLE ===*/
+
+.title {
+  width: 400px;
+  margin: 12px auto;
+}
+
+/*=== FORM ===*/
+
+form {
+  display: flex;
+  justify-content: space-around;
+}
+
+input {
+  width: 125px;
+  outline: none;
+}
+
+/*=== STYLING FOR HEROES ===*/
+
+.hero {
+  display: flex;
+  justify-content: space-around;
+  margin: 12px 0;
+}
+
+.name, .attr, .type {
+  width: 125px;
+}
